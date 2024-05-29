@@ -10,11 +10,11 @@ const CSS = ({tabShow}) => {
       <div className={`${!tabShow ? 'block' :'hidden'} w-full h-full p-0`}>
         <textarea
           translate="no"
-          className="w-full h-[90vh] notranslate border-none outline-none p-1 px-2"
+          className="w-full h-screen bg-[#131313] notranslate border-none outline-none p-1 px-2"
           onChange={(e) => {
             setCSSCode(e.target.value);
           }}
-          placeholder="CSS code type here"
+          placeholder="{ CSS } code type here"
         ></textarea>
       </div>
     );

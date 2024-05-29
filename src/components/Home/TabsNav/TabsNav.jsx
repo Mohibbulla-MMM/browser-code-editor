@@ -1,6 +1,6 @@
 const TabsNav = ({ setTabShow }) => {
   return (
-    <div className="w-full flex gap-1 items-center  text-center">
+    <div className="w-full flex gap-1 items-center text-white text-center">
       {/* css tab here */}
       <div
         onClick={() => setTabShow(true)}

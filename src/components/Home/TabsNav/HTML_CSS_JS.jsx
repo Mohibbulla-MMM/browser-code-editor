@@ -18,11 +18,11 @@ const HTML_CSS_JS = () => {
     <div>
       <section className={`grid grid-cols-12 h-[90vh] `}>
         {/* TODO side bar */}
-        <div className="col-span-6  h-full bg-[#131313]">
+        <div className="col-span-6  h-full bg-[#252525]">
           {/* nav bar */}
           <TabsNav setTabShow={setTabShow} />
 
-          <div>
+          <div className="bg-[#131313] text-gray-400 ">
             <HTML tabShow={tabShow} />
             <CSS tabShow={tabShow} />
           </div>
